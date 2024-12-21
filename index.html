@@ -6,21 +6,33 @@
     <title>Мини-приложение</title>
     <style>
         body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
+            color: #ffffff;
+            background: linear-gradient(135deg, #808080, #808000); /* Серый -> Оливковый */
         }
         h1 {
-            color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1em;
         }
         a {
             display: inline-block;
-            margin-top: 20px;
             padding: 10px 20px;
+            font-size: 1.1em;
+            color: #ffffff;
             background-color: #4CAF50;
-            color: white;
             text-decoration: none;
             border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         a:hover {
             background-color: #45a049;
@@ -28,8 +40,8 @@
     </style>
 </head>
 <body>
-    <h1>Добро пожаловать в мини-приложение!</h1>
-    <p>Это пример встроенного сайта.</p>
+    <h1>Добро пожаловать!</h1>
+    <p>Нажмите на кнопку ниже, чтобы узнать больше.</p>
     <a href="https://t.me/masktomars" target="_blank">Перейти в группу</a>
 </body>
 </html>
